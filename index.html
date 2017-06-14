@@ -1,8 +1,22 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
+    <script src="p5/p5.min.js"></script>
+    <script src="p5/p5.dom.min.js"></script>
+    <script src="p5/p5.sound.min.js"></script>
+    <script src="sketch.js"></script>
+	
 	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
 	<style>
+		canvas {
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		z-index:-1;
+		}
+
 		.Byografy {
 			float: left;
 			margin: 5px;
@@ -14,7 +28,7 @@
 	</style>
 </head>
 <body>
-
+	<div id="background-p5"></div>
 	<h1> Ruben Edwin Hualla Quispe </h1>
 	<div class = "Biografy">
 		<h2> About Me </h2>
